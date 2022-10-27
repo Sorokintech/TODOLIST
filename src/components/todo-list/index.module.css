@@ -1,0 +1,11 @@
+.list {
+    margin-top: 1rem;
+    text-align: left;
+    list-style: none;
+  }
+.button {
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  padding: 1px 15px;
+}
