@@ -12,7 +12,6 @@ export const TodoList = () => {
   const filterTodoItem = () => {
     dispatch(filterTodo());
   }
-  console.log(todos)
   return (
     <div>
     <ul className={styles.list}>

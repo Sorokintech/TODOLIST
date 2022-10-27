@@ -16,8 +16,6 @@ export const Todo = ({ todo }) => {
     dispatch(deleteTodo(todo.id));
   }
 
-
-
   return (
 
     <li className={styles.item} >
@@ -32,6 +30,5 @@ export const Todo = ({ todo }) => {
       </span>
       <span className={styles.delete} onClick={deleteTodoItem}>{"❌"}</span>
     </li>
-
   );
 };
