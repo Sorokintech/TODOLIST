@@ -19,7 +19,7 @@ export const Todo = ({ todo }) => {
   return (
 
     <li className={styles.item} >
-      {todo.completed ? "👌" : "👋"}{" "}
+      {todo.completed ? "❤️" : "🤍"}{" "}
       <span
         className={cx({
           [styles.completed]: todo.completed,
